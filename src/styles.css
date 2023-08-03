@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Noto+Serif:wght@400;700&family=Poppins:wght@100;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,500&display=swap");
+
+body {
+  background-color: #475569;
+  color: #cbd5e1;
+}
+.App {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.header {
+  color: #f1f5f9;
+  margin-bottom: 5rem;
+  font-size: 2rem;
+}
+
+.start h3,
+h4 {
+  font-size: 1.5rem;
+}
+
+.big--btn {
+  width: 7rem;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #cbd5e1;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.selected--answer {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.correct--answer {
+  background-color: #d9f99d;
+}
+
+.wrong--answer {
+  background-color: #fecdd3;
+}
+
+progress {
+  width: 30rem;
+}
+
+.progress {
+  display: flex;
+  justify-content: space-around;
+}
+.questions--div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.options button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20rem;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  font-weight: 600;
+  color: black;
+  cursor: pointer;
+}
+
+.finish {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.finish div {
+  background-color: #cbd5e1;
+  color: black;
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+  border-radius: 10px;
+}
